@@ -9,7 +9,7 @@ It is browser-based classic arcade game. In this game you have a Player and Enem
 
 ## Instructions
 
-- To play the game download all the files on your computer and open index.html in your browser.
+- To play the game download all the files on your computer and open index.html in your browser or just use the following link [Frogger](https://sleeplesspony.github.io/frogger/)
 
 - The player's goal is to earn as much scores as possible. Use the arrow keys to move the player left, right, up or down. Each time the player reaches the water on the other side of the stone he gets 10 points. When you reach the water your character will move back to the grass so that you can try again.
 

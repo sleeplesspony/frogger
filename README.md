@@ -1,6 +1,21 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Frogger Game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+It is browser-based classic arcade game. In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. 
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Table of Contents
+
+* [Instructions](#instructions)
+* [Dependencies](#dependencies)
+
+## Instructions
+
+- To play the game download all the files on your computer and open index.html in your browser.
+
+- The player's goal is to earn as much scores as possible. Use the arrow keys to move the player left, right, up or down. Each time the player reaches the water on the other side of the stone he gets 10 points. When you reach the water your character will move back to the grass so that you can try again.
+
+- Try to avoid colliding into enemies. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, he looses one of his lives and moves back to the start square. The game ends when the player looses all his lives.
+
+## Dependencies
+
+- Font Awesome (Icons) from [https://fontawesome.com/](https://fontawesome.com/)
+- Game engine from [https://github.com/udacity/frontend-nanodegree-arcade-game](https://github.com/udacity/frontend-nanodegree-arcade-game)
